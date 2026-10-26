@@ -9,4 +9,4 @@
 我也不知道这教材能不能上传。反正我们老师是上传的，我不过是把其中一些被AI找出替换不能看的部分传上来罢了。
 
  我粗略的判断，算法这些只是单一结构的变化
-https://github.com/dspan-code/Examprep
+[https://github.com/dspan-code/Examprep](https://dspan-code.github.io/Examprep/)
