@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ECS 170 · 课程阅读索引</title>
+<style>
+  :root { --ink:#1c1c1e; --dim:#6b6b70; --line:#e3e3e6; --bg:#fbfbfa; --accent:#2b6cb0; --hot:#f7f3e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px 22px 60px; background:var(--bg); color:var(--ink);
+         font:15px/1.6 -apple-system,"PingFang SC","Helvetica Neue",Arial,sans-serif; }
+  header { max-width:1080px; margin:0 auto 18px; }
+  h1 { font-size:21px; margin:0 0 6px; font-weight:600; letter-spacing:.01em; }
+  .sub { color:var(--dim); font-size:13px; }
+  .sub a { color:var(--accent); text-decoration:none; }
+  .sub a:hover { text-decoration:underline; }
+  .bar { max-width:1080px; margin:0 auto 14px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  input[type=search] { flex:1 1 260px; min-width:200px; padding:9px 12px; border:1px solid var(--line);
+        border-radius:8px; background:#fff; font-size:14px; outline:none; }
+  input[type=search]:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(43,108,176,.12); }
+  .hint { color:var(--dim); font-size:12px; }
+  table { width:100%; max-width:1080px; margin:0 auto; border-collapse:collapse; background:#fff;
+          border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  td { padding:10px 12px; border-top:1px solid var(--line); vertical-align:top; }
+  tr.week td { background:var(--hot); font-size:13px; color:#5a5242; border-top:0; }
+  td.name { width:30%; font-weight:600; }
+  td.links { width:64px; white-space:nowrap; }
+  td.links a { color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(43,108,176,.3); }
+  td.links a:hover { border-bottom-color:var(--accent); }
+  .kind { margin-left:8px; padding:1px 6px; border:1px solid var(--line); border-radius:999px;
+          font-size:11px; font-weight:400; color:var(--dim); vertical-align:1px; }
+  .who { color:var(--dim); font-size:12.5px; font-weight:400; margin-top:2px; }
+  .note { margin-top:6px; padding:6px 8px; background:#fff8e6; border-left:2px solid #e0b252;
+          font-size:12px; font-weight:400; color:#6b5a2e; border-radius:0 4px 4px 0; }
+  .miss { color:#c0392b; font-size:12px; }
+  tr.missing td.name { color:#c0392b; }
+  tr.hide { display:none; }
+  footer { max-width:1080px; margin:18px auto 0; color:var(--dim); font-size:12px; }
+</style>
+<header>
+  <h1>ECS 170 · Fall 2026 课程阅读索引</h1>
+  <div class="sub">
+    来源：<a href="https://docs.google.com/spreadsheets/d/1U6-VhS6LN8pkLHiTe5j3ov8wh_CHu9dv/edit?gid=643427875" target="_blank">ECS_170_Fall_2026_Schedule</a>
+    · 同步于 2026-10-26 · 29 份材料 · <b>只托管索引</b>，PDF 与文本不上传
+  </div>
+</header>
+<div class="bar">
+  <input type="search" id="q" placeholder="搜周次 / 名称 / 标题 / 作者，例如 bert、gpt、gan、W09" autocomplete="off">
+  <span class="hint" id="count"></span>
+</div>
+<table>
+  <colgroup><col style="width:30%"><col><col style="width:64px"></colgroup>
+  <tbody>
+<tr class="week"><td colspan="3"><b>W01</b> · 9.24 · Introduction / ML Basics</td></tr>
+<tr class="" data-search="w01 introduction 课件 ecs 170 artificial intelligence — introduction 课程课件 ">
+          <td class="name">Introduction 课件<span class="kind">课件</span></td>
+          <td>ECS 170 Artificial Intelligence — Introduction<div class="who">课程课件 · 23 页 · 7k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1eN27Ax2J-4neYcvoj5iLl3e1syL-qg3K/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W02</b> · 9.29 · 10.1 · ML Basics &amp; Project</td></tr>
+<tr class="" data-search="w02 ml basics 教材章 broad learning — chapter 2 jiawei zhang ">
+          <td class="name">ML Basics 教材章<span class="kind">论文</span></td>
+          <td>Broad Learning — Chapter 2<div class="who">Jiawei Zhang · 57 页 · 130k 字</div></td>
+          <td class="links"><a href="http://www.ifmlab.org/files/book/broad_learning/chap2.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w02 ml basics 课件 ml basics (slides) 课程课件 ">
+          <td class="name">ML Basics 课件<span class="kind">课件</span></td>
+          <td>ML Basics (slides)<div class="who">课程课件 · 37 页 · 18k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1Oiy8f2sgblk-nkwY2vAETXTXkULgVP0R/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w02 projects 课件 course projects (slides) 课程课件 ">
+          <td class="name">Projects 课件<span class="kind">课件</span></td>
+          <td>Course Projects (slides)<div class="who">课程课件 · 18 页 · 6k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1xtExuOyqMVovVN_V6rALII5oL2rfIAjj/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W03</b> · 10.6 停课 · 10.8 · Optimization</td></tr>
+<tr class="" data-search="w03 项目说明 ecs 170 fall 2026 project description 课程文档 表格里链到 google 文档（本地导出为 pdf）">
+          <td class="name">项目说明<span class="kind">文档</span><div class="note">表格里链到 Google 文档（本地导出为 PDF）</div></td>
+          <td>ECS 170 Fall 2026 Project Description<div class="who">课程文档 · 5 页 · 9k 字</div></td>
+          <td class="links"><a href="https://docs.google.com/document/d/1OakyBLTdPhy21wFq0uq_rVs-nRDHT2Ks/edit" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w03 梯度下降教程 gradient descent based optimization algorithms jiawei zhang, 2019 · ifmlab tutorial 1 ">
+          <td class="name">梯度下降教程<span class="kind">论文</span></td>
+          <td>Gradient Descent based Optimization Algorithms<div class="who">Jiawei Zhang, 2019 · IFMLab Tutorial 1 · 25 页 · 46k 字</div></td>
+          <td class="links"><a href="http://www.ifmlab.org/files/tutorial/IFMLab_Tutorial_1.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w03 optimization 课件 optimization (slides) 课程课件 ">
+          <td class="name">Optimization 课件<span class="kind">课件</span></td>
+          <td>Optimization (slides)<div class="who">课程课件 · 27 页 · 26k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/10oN_2NAai8A76196OOgu03BTYYPpqlLE/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W04</b> · 10.13 · 10.15 · Optimization / DL Basics</td></tr>
+<tr class="" data-search="w04 brain tutorial 1 secrets of the brain: brain anatomical structure and biological function jiawei zhang, 2019 · ifmlab tutorial 4 ">
+          <td class="name">Brain Tutorial 1<span class="kind">论文</span></td>
+          <td>Secrets of the Brain: Brain Anatomical Structure and Biological Function<div class="who">Jiawei Zhang, 2019 · IFMLab Tutorial 4 · 34 页 · 62k 字</div></td>
+          <td class="links"><a href="http://www.ifmlab.org/files/tutorial/IFMLab_Tutorial_4.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w04 brain tutorial 2 basic neural units of the brain: neurons, synapses and action potential jiawei zhang, 2019 · ifmlab tutorial 5 ">
+          <td class="name">Brain Tutorial 2<span class="kind">论文</span></td>
+          <td>Basic Neural Units of the Brain: Neurons, Synapses and Action Potential<div class="who">Jiawei Zhang, 2019 · IFMLab Tutorial 5 · 38 页 · 75k 字</div></td>
+          <td class="links"><a href="http://www.ifmlab.org/files/tutorial/IFMLab_Tutorial_5.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w04 dl basics 课件 deep learning basics (slides) 课程课件 ">
+          <td class="name">DL Basics 课件<span class="kind">课件</span></td>
+          <td>Deep Learning Basics (slides)<div class="who">课程课件 · 31 页 · 28k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1UlGzBtz1CQ4obYuQS91gI8knNfm_nO6j/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W05</b> · 10.20 · 10.22 · Auto-Encoder / CNN</td></tr>
+<tr class="" data-search="w05 vae 综述 an introduction to variational autoencoders kingma &amp; welling, 2019 ">
+          <td class="name">VAE 综述<span class="kind">论文</span></td>
+          <td>An Introduction to Variational Autoencoders<div class="who">Kingma &amp; Welling, 2019 · 89 页 · 120k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1906.02691.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w05 cnn 奠基论文 gradient-based learning applied to document recognition lecun, bottou, bengio, haffner, 1998 表格里指向 vision.stanford.edu，那台机器已解析不出来；改用作者本人站上的同一份">
+          <td class="name">CNN 奠基论文<span class="kind">论文</span><div class="note">表格里指向 vision.stanford.edu，那台机器已解析不出来；改用作者本人站上的同一份</div></td>
+          <td>Gradient-Based Learning Applied to Document Recognition<div class="who">LeCun, Bottou, Bengio, Haffner, 1998 · 46 页 · 259k 字</div></td>
+          <td class="links"><a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w05 autoencoder 课件 auto-encoder (slides) 课程课件 ">
+          <td class="name">Autoencoder 课件<span class="kind">课件</span></td>
+          <td>Auto-Encoder (slides)<div class="who">课程课件 · 31 页 · 33k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1IXllVIfh9FhGPgwCmatVpWCMzJb_vdxJ/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w05 cnn 课件 convolutional neural networks (slides) 课程课件 ">
+          <td class="name">CNN 课件<span class="kind">课件</span></td>
+          <td>Convolutional Neural Networks (slides)<div class="who">课程课件 · 34 页 · 9k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/1jTsvmEVMopPpoJ5mDezEgi4HQs_dNzdG/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W06</b> · 10.27 · 10.29 · GAN / Computer Vision</td></tr>
+<tr class="" data-search="w06 gan 原始论文 generative adversarial nets goodfellow et al., 2014 ">
+          <td class="name">GAN 原始论文<span class="kind">论文</span></td>
+          <td>Generative Adversarial Nets<div class="who">Goodfellow et al., 2014 · 9 页 · 25k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1406.2661.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w06 homework 1 homework 1 课程作业 ">
+          <td class="name">Homework 1<span class="kind">课件</span></td>
+          <td>Homework 1<div class="who">课程作业 · 5 页 · 5k 字</div></td>
+          <td class="links"><a href="https://drive.google.com/file/d/17tprIrjjK6cJJxjeHnsQUaDD4wcPsixJ/view" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W07</b> · 11.3 · 11.5（期中） · Mid-Term Overview / Mid-Term Exam</td></tr>
+<tr class="" data-search="w07 gpt-1 improving language understanding by generative pre-training radford et al., 2018 表格里的 s3-us-west-2 老桶返回 403；改用 openai 现用 cdn 上的同一份">
+          <td class="name">GPT-1<span class="kind">论文</span><div class="note">表格里的 s3-us-west-2 老桶返回 403；改用 OpenAI 现用 CDN 上的同一份</div></td>
+          <td>Improving Language Understanding by Generative Pre-Training<div class="who">Radford et al., 2018 · 12 页 · 35k 字</div></td>
+          <td class="links"><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w07 gpt-2 language models are unsupervised multitask learners radford et al., 2019 表格里的 cloudfront 域名连不上；改用 openai 现用 cdn">
+          <td class="name">GPT-2<span class="kind">论文</span><div class="note">表格里的 cloudfront 域名连不上；改用 OpenAI 现用 CDN</div></td>
+          <td>Language Models are Unsupervised Multitask Learners<div class="who">Radford et al., 2019 · 24 页 · 79k 字</div></td>
+          <td class="links"><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w07 gpt-3 language models are few-shot learners brown et al., 2020 ">
+          <td class="name">GPT-3<span class="kind">论文</span></td>
+          <td>Language Models are Few-Shot Learners<div class="who">Brown et al., 2020 · 75 页 · 200k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/2005.14165.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W08</b> · 11.10 · 11.12 · RNN &amp; LSTM / Word Embedding</td></tr>
+<tr class="" data-search="w08 lstm 图解 understanding lstm networks christopher olah, 2015 ">
+          <td class="name">LSTM 图解<span class="kind">网页</span></td>
+          <td>Understanding LSTM Networks<div class="who">Christopher Olah, 2015 · 12k 字</div></td>
+          <td class="links"><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w08 注意力论文 recurrent models of visual attention mnih, heess, graves, kavukcuoglu, 2014 表格写作「attention paper」，链接是 1406.6247 —— 视觉注意力，不是 bahdanau 的翻译注意力（1409.0473）">
+          <td class="name">注意力论文<span class="kind">论文</span><div class="note">表格写作「Attention Paper」，链接是 1406.6247 —— 视觉注意力，不是 Bahdanau 的翻译注意力（1409.0473）</div></td>
+          <td>Recurrent Models of Visual Attention<div class="who">Mnih, Heess, Graves, Kavukcuoglu, 2014 · 12 页 · 34k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1406.6247" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w08 transformer 图解 the illustrated transformer jay alammar, 2018 ">
+          <td class="name">Transformer 图解<span class="kind">网页</span></td>
+          <td>The Illustrated Transformer<div class="who">Jay Alammar, 2018 · 21k 字</div></td>
+          <td class="links"><a href="https://jalammar.github.io/illustrated-transformer/" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W09</b> · 11.17 · 11.19 · Transformer &amp; BERT / GNN</td></tr>
+<tr class="" data-search="w09 transformer 论文 attention is all you need vaswani et al., 2017 ">
+          <td class="name">Transformer 论文<span class="kind">论文</span></td>
+          <td>Attention Is All You Need<div class="who">Vaswani et al., 2017 · 15 页 · 34k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1706.03762.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w09 bert bert: pre-training of deep bidirectional transformers for language understanding devlin, chang, lee, toutanova, 2019 ">
+          <td class="name">BERT<span class="kind">论文</span></td>
+          <td>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding<div class="who">Devlin, Chang, Lee, Toutanova, 2019 · 16 页 · 54k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1810.04805.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W10</b> · 11.24 · 11.26 停课 · GNN / Network Embedding</td></tr>
+<tr class="" data-search="w10 gcn semi-supervised classification with graph convolutional networks kipf &amp; welling, 2017 ">
+          <td class="name">GCN<span class="kind">论文</span></td>
+          <td>Semi-Supervised Classification with Graph Convolutional Networks<div class="who">Kipf &amp; Welling, 2017 · 14 页 · 37k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1609.02907.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w10 gat graph attention networks veličković et al., 2018 ">
+          <td class="name">GAT<span class="kind">论文</span></td>
+          <td>Graph Attention Networks<div class="who">Veličković et al., 2018 · 12 页 · 37k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1710.10903.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w10 network embedding 综述 a survey on network embedding cui, wang, pei, zhu, 2018 ">
+          <td class="name">Network Embedding 综述<span class="kind">论文</span></td>
+          <td>A Survey on Network Embedding<div class="who">Cui, Wang, Pei, Zhu, 2018 · 21 页 · 83k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1711.08752.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="week"><td colspan="3"><b>W11</b> · 12.1 · 12.3 · Graph-BERT / Final Overview</td></tr>
+<tr class="" data-search="w11 graph-bert graph-bert: only attention is needed for learning graph representations jiawei zhang et al., 2020 ">
+          <td class="name">Graph-BERT<span class="kind">论文</span></td>
+          <td>Graph-BERT: Only Attention is Needed for Learning Graph Representations<div class="who">Jiawei Zhang et al., 2020 · 10 页 · 50k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/2001.05140.pdf" target="_blank">来源</a></td>
+        </tr>
+<tr class="" data-search="w11 gresnet gresnet: graph residual network for reviving deep gnns from suspended animation jiawei zhang et al., 2019 ">
+          <td class="name">GResNet<span class="kind">论文</span></td>
+          <td>GResNet: Graph Residual Network for Reviving Deep GNNs from Suspended Animation<div class="who">Jiawei Zhang et al., 2019 · 18 页 · 76k 字</div></td>
+          <td class="links"><a href="https://arxiv.org/pdf/1909.05729.pdf" target="_blank">来源</a></td>
+        </tr>
+  </tbody>
+</table>
+<footer>
+  每一行的「来源」指向原始出处（arXiv、Google Drive、Google 文档）；PDF 与纯文本不在本仓库。
+  LeCun 1998 那篇是老式字体编码，抽出来的词会被拆开，精确引用请对 PDF。
+</footer>
+<script>
+  const q = document.getElementById("q");
+  const count = document.getElementById("count");
+  const rows = [...document.querySelectorAll("tbody tr:not(.week)")];
+  const heads = [...document.querySelectorAll("tbody tr.week")];
+  function apply() {
+    const needle = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const row of rows) {
+      const hit = !needle || row.dataset.search.includes(needle);
+      row.classList.toggle("hide", !hit);
+      if (hit) shown++;
+    }
+    // 某个周次下一条都不剩，就把标题也藏起来
+    for (const head of heads) {
+      let node = head.nextElementSibling;
+      let any = false;
+      while (node && !node.classList.contains("week")) {
+        if (!node.classList.contains("hide")) any = true;
+        node = node.nextElementSibling;
+      }
+      head.classList.toggle("hide", !any);
+    }
+    count.textContent = needle ? shown + " 条匹配" : rows.length + " 份材料";
+  }
+  q.addEventListener("input", apply);
+  apply();
+</script>
+</html>
