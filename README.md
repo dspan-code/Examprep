@@ -10,3 +10,10 @@
 
  我粗略的判断，算法这些只是单一结构的变化
 [https://github.com/dspan-code/Examprep](https://dspan-code.github.io/Examprep/)
+
+更新判断:
+参考CNN网络后 我判断它可以从四个角度分解 数据 中转 层级 和任务 这几者分别类似 排序 调用 内核 进程
+
+数据 对特定长度的维度 分出不同的存本  随后单次合并为更新权重 后再拆会原有数据维度格式
+
+
