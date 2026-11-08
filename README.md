@@ -47,7 +47,7 @@
 
  节点|误差速度 -|notes  attribute| -调控门>-       <通道复用拆分合并堆叠操作 >节点|误差速度 
 
- ...<div display='whitespace:pre-wrap'>
+ ...<div style='whitespace:pre-wrap'>
 
     某方向投|        门控                
    门控    | 某方向投     
