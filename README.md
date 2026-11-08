@@ -47,13 +47,13 @@
 
  节点|误差速度 -|notes  attribute| -调控门>-       <通道复用拆分合并堆叠操作 >节点|误差速度 
 
- ...<div style='whitespace:pre-wrap'>
+ ...<blockquote>
 
     某方向投|        门控                
    门控    | 某方向投     
     学习权重 \条件分支  [            对应状态 [更新函数]     更新函数调整记录 ]  条件合并/   学习权重    
                                                                        
-</div>
+</blockquote>
 
 
 
